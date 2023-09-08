@@ -1,0 +1,239 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+.font-1 {
+    font-family: 'Roboto';
+}
+
+/* Colors */
+.primary-color {
+    background-color: azure;
+}
+
+.secondary-color {
+    background-color: rgb(223, 143, 255);
+}
+
+.bg-button {
+    background-color: rgb(231, 141, 227);
+}
+
+.color-white {
+    background-color: white;
+}
+
+
+/* Sizes Width, Height */
+
+.width-10px {
+    width: 50px;
+}
+
+.height-55px {
+    width: 55px;
+}
+
+.width-400px {
+    width: 400px;
+}
+
+.height-600px {
+    height: 600px;
+}
+
+.width-100vw {
+    width: 100vw;
+}
+
+.height-100vh {
+    height: 100vh;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.max-width-100 {
+    max-width: 92px;
+}
+
+.min-width-100 {
+    min-width: 92px;
+}
+
+/* Centralizar componentes Flexbox */
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-start {
+    align-items: start;
+}
+
+/* Display Grid */
+.d-grid {
+    display: grid;
+}
+
+.grid-template-columns-1 {
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-template-columns-2 {
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.grid-template-rows-1 {
+    grid-template-rows: 60px 40px 100px auto;
+}
+
+.grid-template-rows-2 {
+    grid-template-rows: 45px;
+}
+
+/* Borders */
+.border {
+    border: .1px solid lightgray;
+}
+
+.border-radius-5px {
+    border-radius: 5px;
+}
+
+.border-radius-10px {
+    border-radius: 10px;
+}
+
+.shadow-1 {
+    box-shadow: -2px 1px 1px 4px rgba(214, 116, 253, 0.562);
+}
+
+.shadow-2 {
+    box-shadow: -.5px 1px .1px .5px rgb(162, 68, 240);
+}
+
+/* Paddings */
+.p-1 {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    padding-left: .8rem;
+    padding-right: 1rem;
+}
+
+.pr-1 {
+    padding-right: 20px;
+}
+
+/* Margins */
+.mt-1 {
+    margin-top: .1rem;
+}
+
+.mt-2 {
+    margin-top: .2rem;
+}
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.mr-3 {
+    margin-right: .5rem;
+}
+
+
+/* gaps */
+.gap-1 {
+    gap: 1px;
+}
+
+.gap-2 {
+    gap: 3px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+/* Font Sizes */
+.font-size-1 {
+    font-size: 3rem;
+}
+
+.font-size-2 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+/* Button Style */
+.button {
+    cursor: pointer;
+    border: none;
+    top: 10px;
+    background-color: hsl(298, 84%, 80%);
+    box-shadow: inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+}
+
+.button-2 {
+    border: none;
+    cursor: pointer;
+    background-color: rgba(193, 66, 243, 0);
+}
+
+/* Animation */
+
+.button:active {
+    cursor: pointer;
+    border: none;
+    box-shadow: inset 0 0px 0 #FFE5C4, inset 0 3px 0 #915100;
+    padding-top: 5px;
+}
+
+
+
+
+/* .calculator {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+} */
